@@ -1,0 +1,158 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    margin: 47px 896px 0px 72px
+}
+.link-header{
+    text-decoration: none;
+    color: #17233D;
+    margin-right: 35px;
+}
+
+.btn-header{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 124px;
+    height: 50px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.img-logo{
+    margin-left: 185px;
+    margin-top: 180px;
+    width: 595.18px;
+    height: 500px;
+    display: inline-block;
+}
+section{
+    margin-left: 85px;
+    display: inline-block;
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-bottom: 47px;
+}
+
+p{
+width: 493px;
+height: 99px;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+letter-spacing: 0.5px;
+color: #4B505A;
+margin-bottom: 55px;
+}
+
+.link-section{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+
+}
+
+@media screen and (max-width: 1475px){
+
+    header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    margin: 3vh 3vw 18vh 60vw
+}
+
+    .link-header{
+        display: none;
+    }
+    
+    .btn-header{
+        margin:auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        width: 124px;
+        height: 50px;
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    
+    
+    .img-logo{
+        position: absolute;
+        text-align: center;
+        margin-top:30vh;
+        margin-left: 10vw;
+        width: 80%;
+        display:block;
+    }
+    section{
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-bottom: 3vh;
+    }
+    
+    h1{
+        width: 80vw;
+        height:auto;
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 35px;
+        letter-spacing: 0.596154px;
+        color: #161A49;
+        margin: auto;
+        margin-bottom: 3vh;
+    }
+    
+    p{
+    margin: auto;
+    width: 80vw;
+    height:auto;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 3vh;
+    }
+    
+    .link-section{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1em;
+        line-height:30px;
+        letter-spacing: 1px;
+        color: #6FBF44;
+    
+    }
+}
